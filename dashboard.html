@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriManage - Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { background-color: #f8f9fa; }
+        .header { background: #28a745; color: white; padding: 15px; text-align: center; font-size: 28px; font-weight: bold; }
+        .container { margin-top: 30px; }
+        .card {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: white;
+            text-align: center;
+        }
+        .dashboard-image {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        .btn-primary {
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            border: none;
+        }
+        .btn-primary:hover {
+            background: linear-gradient(45deg, #0056b3, #003f7f);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">AgriManage - Dashboard</div>
+    <div class="container">
+        <h3 class="text-center text-success">Welcome to the Dashboard</h3>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card shadow-lg p-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlxZ_6Vnv2gCeoHtJEE4I8KRNvyQqP3EYv7w&s" class="dashboard-image" alt="Farm Management">
+                    <h5>Manage Farms</h5>
+                    <p>View and manage all your farms in one place.</p>
+                    <a href="farm-list.html" class="btn btn-primary">View Farms</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg p-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTczy6i53-qJeuNmJxt8ULP32OEtOnPNTpS_Q&s" height="50" width="20" class="dashboard-image" alt="Crop Management">
+                    <h5>Manage Crops</h5>
+                    <p>Track and update crop details easily.</p>
+                    <a  href="crop-management.html" class="btn btn-primary">Manage Crops</a>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg p-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4d_hvVfwFmZ-NgFP6GRxYNfbSwkoNze7aJw&s" class="dashboard-image" alt="Analytics">
+                    <h5>Analytics</h5>
+                    <p>Get insights into farm productivity.</p>
+                    <a href="analytics.html" class="btn btn-primary">View Analytics</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="index.html" class="btn btn-secondary">Back to Home</a>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        &copy; 2025 AgriManage. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
